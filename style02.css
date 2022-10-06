@@ -1,0 +1,37 @@
+body {
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Permanent+Marker&family=Playfair+Display:wght@700&family=Roboto&display=swap');
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 97vh;
+    background-image: url(Design\ sem\ nome.gif);
+    background-size:cover;
+    background-repeat: none;
+    background-position: center;
+}
+h1 {
+    color: #e78b6e;
+    font-size: 30px;
+    display: block;
+    position: absolute;
+    margin-top: 250px;
+}
+.main {
+ display: flex;
+ justify-content: center; 
+}
+.grupoBotao {
+    margin-top:350px;
+}
+button {
+    position: absolute;
+    display: flex;
+    cursor: pointer;
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #e76ee1;
+    border: none;
+}
+.button_yes {
+    right: 50%;
+}
+
